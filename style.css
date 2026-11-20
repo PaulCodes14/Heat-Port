@@ -21,7 +21,10 @@ header{
   margin: auto;
   padding: 20px;
   background:#004DA3 ;
-  
+  .pic img{
+  height: 490px;
+  width: 490px;
+  }
 }
 .nav-links{
   display: flex;
