@@ -163,6 +163,7 @@ header{
   display: flex;
   gap: 20px;
   padding-top: 20px;
+
 }
 .ski{
     padding: 25px;
@@ -221,25 +222,31 @@ footer {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
-    .skill{
-        flex-direction:row;
+    
     }
 }
 
 @media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
 
     .cards {
         grid-template-columns: 1fr;
     }
-.skill{
-    flex-direction:row;
-}
+
     .hero {
         padding-top: 70px;
-        display:none;
+        
     }
+      .skills{
+    flex-wrap: wrap;
+      }
 .pic img{
-    width:450px
-    height 450px;
+    width:300px
+    height 300px;
 }    
       }
