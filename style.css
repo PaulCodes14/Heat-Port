@@ -221,6 +221,9 @@ footer {
     .cards {
         grid-template-columns: 1fr 1fr;
     }
+    .skill{
+        flex-direction:row;
+    }
 }
 
 @media (max-width: 500px) {
@@ -228,7 +231,15 @@ footer {
     .cards {
         grid-template-columns: 1fr;
     }
-
+.skill{
+    flex-direction:row;
+}
     .hero {
         padding-top: 70px;
+        display:none;
     }
+.pic img{
+    width:450px
+    height 450px;
+}    
+      }
