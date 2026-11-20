@@ -223,31 +223,9 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
     
+      .pic img{
+  height: 300px;
+  width: 300px;
     }
 }
 
-@media (max-width: 500px) {
-    .navbar {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .cards {
-        grid-template-columns: 1fr;
-    }
-
-    .hero {
-        padding-top: 70px;
-        
-    }
-      .skills{
-    display:grid;
-    grid-template-columns:1fr;
-      }
-.pic img{
-    width:100px;
-    height: 100px;
-}    
-      }
