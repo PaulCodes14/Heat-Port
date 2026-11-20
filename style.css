@@ -229,3 +229,29 @@ footer {
     }
 }
 
+@media (max-width: 390px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 70px;
+        
+    }
+      .skills{
+    display:grid;
+    grid-template-columns:1fr;
+      }
+.pic img{
+    width:100px;
+    height: 100px;
+}    
+}
+    
