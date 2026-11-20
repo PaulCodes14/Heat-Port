@@ -203,10 +203,12 @@ footer {
 
     .nav-links {
         flex-wrap: wrap;
-        justify-content: center;
         gap: 15px;
     }
-
+   .hero{
+       flex-direction:row;
+       justify-content:center;
+   }
     .hero h1 {
         font-size: 40px;
     }
