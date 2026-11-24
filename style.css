@@ -232,7 +232,7 @@ footer {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 480px) {
     .navbar {
         flex-direction: row;
         justify-content: center;
@@ -246,7 +246,7 @@ footer {
 
     .hero {
         padding-top: 70px;
-        
+        flex-direction:center;
     }
       .skills{
     display:grid;
